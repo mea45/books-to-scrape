@@ -4,7 +4,7 @@
 For this beginner web scraping project, we gratefully made use of the website, http://books.toscrape.com, which is created and published for the main purpose to be scraped. It is a mock book webshop containing 1000 books spread over 50 different categories. 
 
 ## Script
-In the [Jupyter Notebook](https://github.com/manalelabdellaoui/books-to-scrape/blob/main/web_scraping.ipynb) all the steps that are made to scrape the website and to create the datasets are found. To run the code, you can also use the [Python script](https://github.com/manalelabdellaoui/books-to-scrape/blob/main/book_scraper.py). To use the script, run the following code:
+The [Jupyter Notebook](https://github.com/manalelabdellaoui/books-to-scrape/blob/main/web_scraping.ipynb) shows all the steps that are made to scrape the website and to create the datasets. To run the code, you can also use the [Python script](https://github.com/manalelabdellaoui/books-to-scrape/blob/main/book_scraper.py). To use the script, run the following code:
 
 ```python 
 from book_scraper import book_scraper
