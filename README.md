@@ -29,14 +29,14 @@ If you just want to obtain the datasets without running the script yourself, you
 ## Datasets
 The script returns two dataframes: [`Categories`](https://github.com/manalelabdellaoui/books-to-scrape/blob/main/Categories.csv) and [`Catalog`](https://github.com/manalelabdellaoui/books-to-scrape/blob/main/Catalog.csv). 
 
-`Categories` contains information gathered on each of the book categories:
+:label: `Categories` contains information gathered on each of the book categories:
 - `ID`: unique identifier for each category;
 - `Name`: name of the category (e.g., Travel, Mystery, Historical Fiction etc.);
 - `URL`: URL of the category's index page;
 - `Size`: number of titles in the category;
 - `Pages`: number of web pages for the category.
 
-`Catalog` contains information gathered on each individual book:
+:books: `Catalog` contains information gathered on each individual book:
 - `ID`: unique identifier for each individual book;
 - `Title`: title of the book;
 - `Stars`: star rating (1-5);
