@@ -28,8 +28,8 @@ def scraper(url):
 # function that builds the dataframes Categories and Catalog
 def book_scraper(t=1.5):
     # check whether t has an appropriate value
-    if not (isinstance(t, (float, int)) or t is None):
-        print('Make sure to enter a numerical value for t, or leave it empty.')
+    if not (isinstance(t, (float, int)) or t is None or t < 0):
+        print('Make sure to enter a numerical nonnegative value for t, or leave it empty.')
         return
     
     ##########################################################################
@@ -150,7 +150,7 @@ def book_scraper(t=1.5):
         stock.append(re.findall(r'\d+', soup.find('p', class_='instock availability').text)[0])
         description.append(soup.find('meta', attrs={'name': 'description'}).get('content'))
         upc.append(soup.find_all('tr')[0].text[4:-1])
-        time.sleep(1.5)
+        time.sleep(t)
     
     # adding extracted data to the Catalog dataframe
     Catalog['Stock_Size'] = stock
