@@ -22,8 +22,10 @@ This script depends on the following packages:
 - `time`
 - `BeautifulSoup` (from `bs4`)
 
+If you just want to obtain the datasets without running the script yourself, you can click on the links found below.
+
 ## Datasets
-The script returns two dataframes: `Categories` and `Catalog`. 
+The script returns two dataframes: [`Categories`](https://github.com/manalelabdellaoui/books-to-scrape/blob/main/Categories.csv) and [`Catalog`](https://github.com/manalelabdellaoui/books-to-scrape/blob/main/Catalog.csv). 
 
 `Categories` contains information gathered on each of the book categories:
 - `ID`: unique identifier for each category;
@@ -38,12 +40,9 @@ The script returns two dataframes: `Categories` and `Catalog`.
 - `Stars`: star rating (1-5);
 - `Price`: price for which the book is sold;
 - `In_Stock`: binary stock availability;
-- `URL`: URL of the individual book' page;
+- `URL`: URL of the individual book's page;
 - `Category`: category to which the book belongs;
 - `Stock_Size`: number of copies of the book available;
 - `Description`: description of the book's content;
 - `UPC`: Universal Product Code;
 - `Category_ID`: unique identifier of the category to which the book belongs.
-
-## Dashboard
-*Coming soon...*
