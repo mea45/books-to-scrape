@@ -6,7 +6,7 @@ For this beginner web scraping project, we gratefully make use of the website, h
 ![Screenshot of the home page of http://books.toscrape.com](bookstoscrape_homepage.png)
 
 ## Script
-The [Jupyter Notebook](https://github.com/manalelabdellaoui/books-to-scrape/blob/main/web_scraping.ipynb) shows all the steps that are made to scrape the website and to create the datasets. To run the code, you can also use the [Python script](https://github.com/manalelabdellaoui/books-to-scrape/blob/main/book_scraper.py). To use the script, run the following code:
+The [Jupyter Notebook](https://github.com/mea45/books-to-scrape/blob/main/web_scraping.ipynb) shows all the steps that are made to scrape the website and to create the datasets. To run the code, you can also use the [Python script](https://github.com/mea45/books-to-scrape/blob/main/book_scraper.py). To use the script, run the following code:
 
 ```python 
 from book_scraper import book_scraper
@@ -27,7 +27,7 @@ This script depends on the following packages:
 If you just want to obtain the datasets without running the script yourself, you can click on the links found below.
 
 ## Datasets
-The script returns two dataframes: [`Categories`](https://github.com/manalelabdellaoui/books-to-scrape/blob/main/Categories.csv) and [`Catalog`](https://github.com/manalelabdellaoui/books-to-scrape/blob/main/Catalog.csv). 
+The script returns two dataframes: [`Categories`](https://github.com/mea45/books-to-scrape/blob/main/Categories.csv) and [`Catalog`](https://github.com/mea45/books-to-scrape/blob/main/Catalog.csv). 
 
 :label: `Categories` contains information gathered on each of the book categories:
 - `ID`: unique identifier for each category;
